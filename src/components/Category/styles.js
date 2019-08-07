@@ -8,6 +8,10 @@ export const Anchor = styled.a`
   text-align: center;
   text-decoration: none;
   width: ${categoryItemSize};
+
+  &:first-child {
+    
+  }
 `
 
 export const Figure = styled.figure`
